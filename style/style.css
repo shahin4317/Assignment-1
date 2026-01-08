@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px 16px 120px;
+    flex-direction: row;
+    background-color: #ffffff;
+    
+}
+.img{
+    width: 139px;
+    height: 60px;
+}
+.menu{
+    width: 365px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+    
+
+}
+
+
+.btn{ 
+    
+    width: 164px;
+    height: 44px;
+    display: flex;
+    background-color: rgb(75, 190, 75);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px 6px;
+
+}
+.btn:hover{ 
+    transform: scale(1.05);
+}
+

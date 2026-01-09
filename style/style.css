@@ -25,6 +25,8 @@ nav{
 }
 
 
+
+
 .btn{ 
     
     width: 164px;
@@ -42,4 +44,104 @@ nav{
 .btn:hover{ 
     transform: scale(1.05);
 }
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: inter;
+}
+
+.hero{  
+    background-image:url("/image/hero-bg.png");
+    background-size:cover;
+    height: 100vh;
+    background-position:center;
+    
+}
+
+.overlay{
+    height:100%;
+    background:rgba(0,0,0,0.65);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-content{
+    text-align:center;
+    color:white;
+    max-width:800px;
+    padding:20px;
+}
+.badge{
+    
+    display: inline;
+    
+    
+    gap: 6;
+    border-radius: 1000px;
+    background-color:  rgba(255, 255, 255, 1);
+    padding: 6px 16px;
+    color: rgb(75, 190, 75);
+    
+    
+}
+.badge:hover{
+    cursor: pointer;
+}
+.hero-content h1{
+    font-size:72px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+.hero-content h1 span{
+    color:rgba(48, 184, 104, 1)
+}
+
+.hero-content p{
+    font-size:18px;
+    color: rgba(255, 255, 255,);
+    text-align: center;
+    letter-spacing: 0%;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    border-radius: 4px;
+}
+
+.btn{
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:16px;
+}
+
+.primary{
+    background:rgb(75, 190, 75);
+    border: 1px solid white;;
+    color:#ffffff;
+}
+
+.outline{
+    background-color: rgb(75, 190, 75);
+    border:1px solid white;
+    color: #ffffff;
+}
+
+    
+    
+
+
+
+
+
+
+
 

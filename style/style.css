@@ -57,7 +57,7 @@ nav{
 }
 
 .hero{  
-    background-image:url("/image/hero-bg.png");
+    background-image:url("../image/hero-bg.png");
     background-size:cover;
     height: 100vh;
     background-position:center;

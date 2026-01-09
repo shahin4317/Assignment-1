@@ -135,12 +135,176 @@ nav{
     color: #ffffff;
 }
 
+.note-section{
+    width: 1572;
+    height: 520;
+    padding:120px 120px 0 120px;
+    background:#f9fafb;
+    text-align:center;
     
+}
+.note-section h2{
+    font-size: bold;
+    color: black;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subtitle{
+    color: #627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.cards{
+    width: 1360px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+
+
     
+}
+.cards{
+    display:grid;
+    display: flex;
+    gap:30px;
+}
+
+.card{
+    width: 322px;
+    height: 300px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px;
+    
+}
+.card{
+    background:#ffffff;
+    padding:40px 30px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    text-align:center;
+    
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.img-box{
+    width:64px;
+    height:64px;
+    background:#ff5a5a;    
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 20px;
+    box-shadow: #730c0c;
+     
+}
+
+.card h3{
+    width: 274px;
+    height: 29px;
+    color: #001931;   
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;   
+    text-align: center;
+    text-transform: capitalize;
+        
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+.card p{
+    
+    width: 274px;
+    height: 40px;
+
+}   
+.brain-section{
+     background-color: #ffffff;
+     padding: 100px 50px;
 
 
+}
+.brain-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.brain-text{
+    width:50%;
+   
+}
+.brain-text h6{
+    width: 700px;
+    height: 20px;
+    color: #30B868;
+    font-size: 16px;
+    font-style: Medium;
+}
+
+.brain-text h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#000000;
+    text-align: left;
+    
+}
+
+.brain-text p{
+    color:#627382;
+    margin-bottom:30px;
+    font-size:18px;
+    text-align: left;
+}
+
+.brain-text ul{
+    list-style:none;
+}
+
+.brain-text li{
+    margin-bottom:15px;
+    font-size:16px;
+    color:#0c111d;
+    position: center;
+    padding-left:25px;
+}
 
 
+.brain-image{  
+    border-radius: 12px;   
+    
+}
+
+.brain-image img{ 
+    width: 600px;
+    height: 600px;
+}
+
+ 
 
 
 
